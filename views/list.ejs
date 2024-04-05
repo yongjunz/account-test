@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/stylesheets/list.css">
+</head>
+<body>
+  <div>
+    <% accounts.forEach((item) => { %>
+      <div class="account-item">
+        <div class="account-date"><%= item.time %></div>
+        <div class="account-detail">
+          <span><%= item.title %></span>
+          <span class="account-type cost"><%= item.type === -1 ? '支付' : '收入' %></span>
+          <span><%= item.account %></span>
+          <a href="account/<%= item._id %>">删除</a>
+        </div>
+      </div>
+    <% }) %>
+  </div>
+</body>
+</html>

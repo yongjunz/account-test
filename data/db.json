@@ -1,0 +1,28 @@
+{
+  "accounts": [
+    {
+      "id": "61WKv-_xD",
+      "title": "午餐",
+      "time": "2024-04-13",
+      "type": "-1",
+      "account": "26",
+      "remarks": "外卖"
+    },
+    {
+      "id": "8aK3diqNX",
+      "title": "年终",
+      "time": "2024-04-10",
+      "type": "1",
+      "account": "66000",
+      "remarks": "年终奖"
+    },
+    {
+      "id": "-yV7GdFNS",
+      "title": "买电脑",
+      "time": "2022-01-12",
+      "type": "-1",
+      "account": "5554",
+      "remarks": "机器学习"
+    }
+  ]
+}

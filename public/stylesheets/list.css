@@ -1,0 +1,19 @@
+.account-item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.account-date {
+  border-bottom: 1px solid #ccc;
+  padding: 16px;
+}
+.account-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.cost {
+  color: red;
+}
